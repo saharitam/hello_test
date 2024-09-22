@@ -1,4 +1,4 @@
-def factorial (n)
+def factorial (n):
 	if n == 0:
 		return 1
 	else:
@@ -8,3 +8,4 @@ number = 5
 result = factorial(number)
 print(f"The factorial of {number} is {result}.")
 
+print(f"This is an added line to try to test Git stuff")
